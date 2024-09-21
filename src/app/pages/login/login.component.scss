@@ -1,0 +1,28 @@
+:host ::ng-deep {
+    #login-div {
+        width: 90%;
+        height: 90%;
+
+        #login-card-div {
+            width: 20%;
+            height: 35%;
+            min-width: 300px;
+            min-height: 300px;
+
+            #user-icon {
+                i {
+                    border-radius: 50%;
+                    padding: 10px;
+                    background-color: white;
+                }
+            }
+        }
+
+        // Login Card Background
+        .p-component .p-card-body {
+            background-color: var(--surface-400);
+            border-radius: 5px;
+            border: 1px solid var(--surface-border);
+        }
+    }
+}

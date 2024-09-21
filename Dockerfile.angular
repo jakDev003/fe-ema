@@ -1,0 +1,9 @@
+FROM node:alpine
+
+WORKDIR /usr/src/app
+
+COPY ./fe-ema /usr/src/app
+
+RUN npm install -g @angular/cli
+
+#ENTRYPOINT ["tail", "-f", "/dev/null"]
